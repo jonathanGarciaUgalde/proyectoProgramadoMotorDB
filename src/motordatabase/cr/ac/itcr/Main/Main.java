@@ -18,8 +18,8 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        ejemploDatos e= new ejemploDatos();
-        System.out.print(e.nombre());
+        ejemploDatos ee= new ejemploDatos();
+        System.out.print(ee.nombre());
         
         // TODO code application logic here
     }
