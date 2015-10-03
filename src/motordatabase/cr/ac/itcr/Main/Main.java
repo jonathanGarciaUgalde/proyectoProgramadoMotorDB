@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package motordatabase.cr.ac.itcr.Main;
-import  motordatabase.cr.ac.itcr.Datos.ejemploDatos;
+import  motordatabase.cr.ac.itcr.Datos.beans;
         
        
 /**
@@ -18,10 +18,18 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        ejemploDatos ee= new ejemploDatos();
-        System.out.print(ee.nombre());
+        beans ee= new beans() ;
+        ee.setApellido("GARCIA\n");
+        ee.setId(1 );
         
+        ee.setNombre("Jonathan \n");
+        System.out.print(ee.getNombre());
+        
+        System.out.print(ee.getApellido());
+        
+        System.out.print(ee.getId());
         // TODO code application logic here
+   
     }
     
 }
