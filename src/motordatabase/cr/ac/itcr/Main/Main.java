@@ -22,7 +22,7 @@ public class Main {
         ee.setApellido("GARCIA\n");
         ee.setId(1 );
         
-        ee.setNombre("Jonathan \n");
+        ee.setNombre("Jonathann \n");
         System.out.print(ee.getNombre());
         
         System.out.print(ee.getApellido());
