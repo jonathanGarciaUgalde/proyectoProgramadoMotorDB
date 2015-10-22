@@ -11,7 +11,7 @@ package motordatabase.cr.ac.itcr.Datos;
  */
 public class beans {
    int id=0;
-   String  nombre="";
+   String  nombre="hhh";
    String  apellido="";
     public int getId() {
         return id;
